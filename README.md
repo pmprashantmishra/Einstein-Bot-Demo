@@ -1,3 +1,17 @@
+## Deplyment step in SFDC org
+- Open your scratch or dev org
+- enable chat settings in your org by search chat settings in Quick find Box
+- enable Knowledge user for your user
+- enable knowledge for lightning from knowledge settings
+- enable Bot from Einstine Bot settings
+- now you are ready to deploy this Bot on your org 
+- you can change bot user from bot setting for permmisons related issues
+
+Note: if you face an error while deployment make sure you followed all steps coorectly 
+- if you face Warning Admin You can't edit tab settings for LiveAgent, as it's not a valid tab.
+    - open Admin profile xml and remove LiveAgent permmision from code and try again
+ 
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
