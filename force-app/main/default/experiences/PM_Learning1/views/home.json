@@ -1,0 +1,84 @@
+{
+  "appPageId" : "fc7359cd-3640-4096-ba96-9982776b40a8",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "5266b4d0-5ecd-45fc-b216-60a081e70055",
+  "label" : "Home",
+  "regions" : [ {
+    "id" : "1124bf8e-9589-4f7c-bdc2-d3d9997424e4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "7487c6a2-3eab-4135-b69d-3b2947364c41",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 36px;\">Welcome</span></h1><p style=\"text-align: center;\"><span style=\"font-size: 16px;\">Einstine Chat Bot Demo</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "da92dfd2-7a57-4392-a707-f27efe08c9b6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b1dfdd80-9d26-4fb5-865e-e6f04d4a3d40",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "channel" : "DefaultChannel",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:recommendations",
+      "id" : "d5d17f6e-9367-4531-8f99-8ff69cc1089a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "display" : "LEVELS_POINTS",
+        "excludeInternalUsers" : false,
+        "knowledgeLabel" : "Knows about",
+        "numberOfUsers" : 5,
+        "showContextUser" : false,
+        "showTooltip" : false,
+        "showUserRank" : false,
+        "title" : "Leaderboard",
+        "tooltipText" : "Earn points and climb to new levels when you contribute in the experience!"
+      },
+      "componentName" : "forceCommunity:reputationLeaderboard42",
+      "id" : "5d1b34d1-de86-47cd-8572-65040026ddf5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "63f77af7-100f-4879-956d-309c10a5a15f",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "449ac4a1-d051-4cc4-91e2-153d1a619cee",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8847e847-44bc-495f-8ca4-0d61b8af4ad4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "28728386-157b-42a0-a256-9012df41f8a3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
